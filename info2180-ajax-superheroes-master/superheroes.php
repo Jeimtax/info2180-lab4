@@ -1,5 +1,8 @@
 <?php
 
+header('Access-Control-Allow-Origin: *');
+//needed to bypass CORS error
+
 $superheroes = [
   [
       "id" => 1,
