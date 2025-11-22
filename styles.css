@@ -1,8 +1,36 @@
 body {
-    background-color: grey;
+    background-color: rgb(124, 125, 142);
 }
 
-.btn{
-    background-color: grey;
-    border-radius: 2px;  
+.title{
+    background-color: rgb(52, 56, 136);
+    color:white;
+    padding: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
 }
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+#hero{
+    padding: 10px 300px 10px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.searchBtn{
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px; 
+    padding: 10px; 
+    color: white;
+}
+
